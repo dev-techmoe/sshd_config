@@ -75,7 +75,7 @@ UsePAM no
 
 # PAM authentication enabled to make password authentication available
 # remove this if password authentication is not needed
-UsePAM yes
+# UsePAM yes
 
 # challenge-response authentication backend it not configured by default
 # therefore, it is set to "no" by default to avoid the use of an unconfigured backend
