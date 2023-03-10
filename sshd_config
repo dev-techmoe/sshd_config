@@ -69,9 +69,9 @@ X11Forwarding no
 #   - AuthenticationMethods: permitted authentication methods
 #   - PasswordAuthentication: set to no to disable password authentication
 #   - UsePAM: set to no to disable all PAM authentication, also disables PasswordAuthentication when set to no
-#AuthenticationMethods publickey
-#PasswordAuthentication no
-#UsePAM no
+AuthenticationMethods publickey
+PasswordAuthentication no
+UsePAM no
 
 # PAM authentication enabled to make password authentication available
 # remove this if password authentication is not needed
